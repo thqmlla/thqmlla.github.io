@@ -19,7 +19,6 @@ a{
 ol{
     color: hotpink;
 }
-img{
-    border-style: double;
-    border-color: lightpink;
+#id1{
+    border: solid pink 3px;
 }
