@@ -13,12 +13,24 @@ img{
     width: 500px;
 }
 a{
-    text-decoration: none;
     color:hotpink;
+    border-radius: 20px;
+    background-color: pink;
+    text-decoration: none;
+
 }
 ol{
     color: hotpink;
 }
 #id1{
     border: solid pink 3px;
+}
+#id3{
+    border:solid pink 10px;
+    text-align: center;
+}
+   
+#id2{
+    font-size: 22px;
+    font-weight: bold;
 }
