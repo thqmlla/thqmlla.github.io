@@ -8,10 +8,15 @@ body {
 }
 P {
     color:pink;
+    text-align: center;
 }
 img{
     width: 500px;
+    display: block;
+    margin: auto;
+    size: 20px;
 }
+
 a{
     color:hotpink;
     border-radius: 20px;
@@ -21,11 +26,12 @@ a{
 }
 ol{
     color: hotpink;
+    text-align: center;
 }
 #id1{
     border: solid pink 3px;
 }
-#id3{
+.borda{
     border:solid pink 10px;
     text-align: center;
 }
