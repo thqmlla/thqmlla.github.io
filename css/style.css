@@ -52,7 +52,7 @@ h3{
 }
 
 .spotify{
-    width: 352px;
+    width: 600px;
     height: 352px;
     margin: 0 auto;
     display: flex;
@@ -81,4 +81,7 @@ header{
     text-decoration: none;
     color: pink;
     font-size: 18px;
+}
+.espaço{
+    padding-top: 100px;
 }
