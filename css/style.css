@@ -19,8 +19,6 @@ img{
 
 a{
     color:hotpink;
-    border-radius: 20px;
-    background-color: pink;
     text-decoration: none;
 
 }
@@ -84,4 +82,7 @@ header{
 }
 .espaço{
     padding-top: 100px;
+}
+a:hover{
+    color: palevioletred;
 }
