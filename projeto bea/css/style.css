@@ -1,0 +1,16 @@
+h1{
+    color: rgb(243, 150, 223);
+    text-align: center;
+    font-size: 20px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 30Vh;
+}
+p{
+    text-align: center;
+    font-size: 3Vh;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
