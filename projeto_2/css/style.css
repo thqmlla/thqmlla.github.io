@@ -1,0 +1,32 @@
+h1{
+    color: rgb(245, 76, 169);
+    text-align: center;
+    font-size: 20px;
+    font-style: "cambria";
+}
+img{
+    display: block;
+    margin: auto;
+    min-width: 30px;
+    max-width: 35vw;
+}
+p{
+    text-align: center;
+    font-size: 12px;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    color: rgb(245, 76, 169);
+}
+img{
+    border-radius: 10px;
+    border: solid, rgb(245, 76, 169), 2px;
+}
+iframe{
+    width: 60vh;
+    height: 80vh;
+    display: block;
+    margin: auto;
+}
+body{
+    background-color: rgb(255, 246, 254);
+}
