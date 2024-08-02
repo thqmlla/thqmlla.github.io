@@ -1,0 +1,37 @@
+img{
+    width: 190px;/*Largura*/
+}
+h2{
+    font-size: 24px;
+    font-family: 'Tahoma';
+}
+h3{
+    font-size: 20px;
+    font-family: 'Tahoma';
+}
+div{
+    background-color: #f5f5f5; /*Padrão Hexadecial*/
+    padding: 50px;/*Espaçamento interno*/
+    width: 930px;
+    margin:0 auto;/*margem*/
+    border-top:20px solid #d5d5d5;/*Borda-Topo, define apenas o topo da borda*/
+    text-align: center;
+}
+p{
+    text-align: center;
+    line-height: 28px;/*Espaçamento das linhas*/
+    font-family: 'Tahoma';
+}
+a{
+    background-color: green;/*padrão nominal*/
+    font-size: 14px;
+    font-weight: bold;/*espessura da fonte*/
+    text-decoration: none;
+    color:#fff;
+    padding: 8px 15px;/*8 em cima(top) e em baixo(bottom) e 15 pro left(esquerda) e right(direita)*/
+    border-radius: 20px;/*redonda*/
+}
+span{
+    font-weight: bold;
+}
+
