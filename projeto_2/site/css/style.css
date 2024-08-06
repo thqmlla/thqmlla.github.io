@@ -1,7 +1,7 @@
 h1{
     color: rgb(245, 76, 169);
     text-align: center;
-    font-size: 3vh;
+    font-size: 5vh;
     font-style: "cambria";
 }
 p{
@@ -26,4 +26,11 @@ iframe{
 }
 body{
     background-color: rgb(255, 246, 254);
+}
+
+h2{
+    color: rgb(245, 76, 169);
+    text-align: center;
+    font-size: 2vh;
+    font-style: "cambria";
 }
