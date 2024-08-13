@@ -2,7 +2,7 @@ h1{
     color: rgb(245, 76, 169);
     text-align: center;
     font-size: 5vh;
-    font-style: "cambria";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 p{
     text-align: center;
@@ -20,7 +20,7 @@ img{
 }
 iframe{
     width: 60vh;
-    height: 80vh;
+    height: 35vh;
     display: block;
     margin: auto;
 }
