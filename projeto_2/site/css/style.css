@@ -24,6 +24,7 @@ iframe{
     display: block;
     margin: auto;
 }
+
 body{
     background-color: rgb(255, 246, 254);
 }
@@ -45,12 +46,9 @@ h2{
 #card2{
     display: flex;
     justify-content: center;
-    width: 30vw;
-    min-width: 35px;
-    max-width: 200px;
-    border-radius: 25px;
-    margin: auto;
     gap: 1%;
+    margin-bottom: 5%;
+    margin-top: 0%;
 }
 
 .borda{
@@ -64,6 +62,64 @@ h2{
     flex-wrap: wrap;
     flex-direction: row;
     align-items: flex-start;
-    gap: 100px;
+    gap: 5%;
     margin-bottom: 20px;
+}
+
+.mu{
+    width: 40%;
+}
+
+caption{
+    text-align: center;
+    color: black;
+    font-size: 3vh;
+    font-family: 'Papyrus';
+    font-weight: bold;
+}
+table{
+    border-collapse: collapse;
+    border: solid, 1px, rgb(1, 1, 92);
+    background-color:  rgb(245, 76, 169);
+    width: 40vw;
+    min-width: 300px;
+    min-height: 350px;
+    max-width: 40vw;
+    max-height: 40vw;
+    height: 50vh;
+    margin: auto;
+    table-layout: fixed;
+}
+thead{
+    height: 5vh;
+    background-color:  rgb(255, 151, 231);
+}
+td{
+    border: solid, 1px, rgb(155, 0, 121);
+    text-align: center;
+    height: 3vh;
+    font-family: 'Courier New';
+}
+th{
+    font-family: 'Papyrus' ;
+    border: solid, 1px,  rgb(255, 130, 199);
+}
+tr{
+    border: solid, 1px, rgb(255, 129, 198);
+}
+table tr:nth-child(even){
+    background-color:   rgb(255, 201, 242);
+}
+tfoot td{
+    text-align: right;
+    padding-right: 1%;
+}
+
+.imagem{
+    width: 300px;
+    height: 300px;
+    max-width: 300px;
+    max-height: 300px;
+    min-width: 100px;
+    min-height: 100px;
 }
