@@ -1,32 +1,52 @@
-h1{
-    color: rgb(245, 76, 169);
+
+table {
+    border-collapse: collapse;
+    border: 2px solid;
+    width: 20vw;
+    height: 20vh;
+    background-color: rgb(255, 193, 245);
+    box-shadow: 4px 9px 12px rgb(46, 7, 78);
+    min-width: 310px;
+    max-width: 25vw;
+    margin: auto;
+}
+
+tbody {
+    color: rgb(0, 0, 0);
+    align-items: center;
     text-align: center;
+    color: rgb(228, 8, 155);
+    font-weight: bold;
     font-size: 20px;
-    font-style: "cambria";
+    font-family:'Franklin Gothic Medium';
 }
-img{
-    display: block;
-    margin: auto;
-    min-width: 30px;
-    max-width: 35vw;
+
+td {
+    border: 2px solid;
+    padding: 10px;
 }
-p{
+
+a {
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
+
+h1 {
+    font-size: 5vh;
     text-align: center;
-    font-size: 12px;
-    margin-left: 20vw;
-    margin-right: 20vw;
-    color: rgb(245, 76, 169);
+    font-family: papyrus;
 }
-img{
-    border-radius: 10px;
-    border: solid, rgb(245, 76, 169), 2px;
+
+th {
+    font-family:'Courier New';
+    font-weight: bold;
+    font-size: 20px;
 }
-iframe{
-    width: 60vh;
-    height: 80vh;
-    display: block;
-    margin: auto;
-}
-body{
-    background-color: rgb(255, 246, 254);
+
+thead {
+    background-color: rgb(255, 126, 205);
 }
