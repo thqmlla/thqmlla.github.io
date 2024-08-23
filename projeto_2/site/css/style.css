@@ -35,13 +35,6 @@ h2{
     font-size: 2vh;
     font-style: "cambria";
 }
-#card{
-    display: flex;
-    justify-content: center;
-    gap: 4%;
-    margin-bottom: 16%;
-    flex-wrap: wrap;
-}
 
 #card2{
     display: flex;
@@ -89,6 +82,7 @@ table{
     height: 50vh;
     margin: auto;
     table-layout: fixed;
+    margin-bottom: 20px;
 }
 thead{
     height: 5vh;
