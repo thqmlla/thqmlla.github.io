@@ -1,0 +1,44 @@
+body{
+    background-color: rgb(247, 247, 247);
+}
+
+#principal{
+    width: 30vw;
+    margin: auto;
+    display: block;
+    border-radius: 25px;
+    max-width: 500px;
+    min-width: 200px;
+    margin-bottom: 2%;
+}
+
+h1{
+    font-size: 4.5vh ;
+    text-align: center;
+    font-family: cursive;
+    font-style: normal;
+    color:  rgb(255, 91, 192);
+}
+
+p{
+    font-size: 3.5vh ;
+    text-align: center;
+    font-family: 'Cantarell';
+    font-style: normal;
+    color: #690073;
+    margin-left: 20vw;
+    margin-right: 20vw;
+}
+
+main{
+    height: 82vh;
+    width: 100vw;
+}
+
+.playlist{
+    width: 60%;
+    display: block;
+    margin: auto;
+    min-width: 250px;
+    
+}
