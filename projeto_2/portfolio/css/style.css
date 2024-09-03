@@ -1,3 +1,7 @@
+:root{
+    --cor-principal: #fa9bdd;
+}
+
 body{
     background-color: rgb(247, 247, 247);
 }
@@ -21,11 +25,11 @@ h1{
 }
 
 p{
-    font-size: 3.5vh ;
+    font-size: 5vh;
     text-align: center;
     font-family: 'Cantarell';
     font-style: normal;
-    color: #fa9bdd;
+    color: var(--cor-principal);
     margin-left: 20vw;
     margin-right: 20vw;
 }
@@ -41,4 +45,19 @@ main{
     margin: auto;
     min-width: 250px;
     
+}
+
+.myla{
+    border-radius: 20px;
+    margin: auto;
+    display: block;
+    border: var(--cor-principal), double, 5px;
+    max-width: 600px;
+    width: calc(100% - 20px);
+}
+
+iframe{
+    width: 85%;
+    margin: auto;
+    display: flex;
 }
