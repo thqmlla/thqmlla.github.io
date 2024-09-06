@@ -61,3 +61,98 @@ iframe{
     margin: auto;
     display: flex;
 }
+
+.eu{
+    width: 400px;
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    border: #fa9bdd double 5px;
+}
+
+.textoProjeto{
+    font-size: 18px;
+}
+
+.cardProjeto{
+    background-color:  rgb(253, 107, 107);
+    border: var(--cor-secundaria) 3px solid;
+    border-radius: 10px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+}
+
+.botaoProjeto{
+    background-color: rgb(255, 47, 47);
+    border-radius: 6px;
+    margin: 6px;
+}
+
+.botaoProjeto a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.botaoProjeto:hover{
+    box-shadow: 3px 3px 10px black;
+}
+
+.cardProjeto img{
+    width: 80%;
+    height: 35%;
+    margin-bottom: 8%;
+}
+
+.sectionProjeto{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-top: 50px;
+    justify-content: center;
+    margin-bottom: 200px;
+}
+
+.form{
+    background-color: var(--cor-secundaria);
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    margin: 10px;
+    border: 10px double rgb(255, 66, 66);
+    margin-bottom: 75%;
+}
+
+.form label{
+    display: block;
+    margin: 3px;
+    font-weight: bold;
+    margin-left: 7px;
+}
+
+.form input[type="text"], .form input[type="email"], .form input[type="password"], textarea{
+    border-radius: 5px;
+    width: 282px;
+    height: 30px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    font-family: Arial, sans-serif;
+}
+
+.form button{
+    width: 282px;
+    height: 30px;
+    font-size: 16px;
+    border-radius: 5px;
+    margin: 7px;
+    border: none;
+    cursor: pointer;
+    font-family: Arial, sans-serif;
+}
