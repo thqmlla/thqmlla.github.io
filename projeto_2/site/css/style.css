@@ -13,7 +13,7 @@ p{
 }
 img{
     border-radius: 10px;
-    border: solid, rgb(245, 76, 169), 2px;
+    border: rgb(245, 76, 169), 8px, double;
     width: 40vh;
     display: block;
     margin: auto;
@@ -75,7 +75,7 @@ caption{
 }
 table{
     border-collapse: collapse;
-    border: solid, 1px, rgb(1, 1, 92);
+    border: solid, 1px, rgb(255, 0, 106);
     background-color:  rgb(245, 76, 169);
     width: 40vw;
     min-width: 300px;
