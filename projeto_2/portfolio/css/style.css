@@ -46,7 +46,7 @@ p{
     border-radius: 20px;
     margin: auto;
     display: block;
-    border: var(--cor-principal), double, 5px;
+    border: var(--cor-principal), double, 8px;
     max-width: 600px;
     width: calc(100% - 20px);
 }
